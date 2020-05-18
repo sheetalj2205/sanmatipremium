@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="index.css">
+<style>
+.mySlides {display:none;}
+</style>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body>
+  <!-- <div id="div11">
+    <p class="header">SANMATI PREMIUM</p>
+  </div> -->
+
+  <div id="main" style="max-width:100%;">
+<div id="div1">
+  <div class="mySlides">
+  <img src="images/img4.jpg"  style="width:100%;">
+  <p class ="text">LIVE A <span>HEALTHIER</span><br>WHOLESOME LIFE</p>
+    </div>
+
+<div class="mySlides">
+  <img src="images/img5.jpg" data-aos="fade-left" style="width:100%">
+  <p class ="text2">PURE & ORGANIC</p>
+</div>
+  <div class="mySlides">
+  <img src="images/img3.jpg" data-aos="fade-left" style="width:100%">
+  <p class ="text3">EAT<br><span> HEALTHY</span> <br> STAY<br><span>HEALTHY</span></p>
+  </div>
+</div>
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000); // Change image every 2 seconds
+}
+</script>
+
+  <div id="div2">
+    <div class="intro" data-aos="fade-up"><br>
+  <p class="head">SANMATI PREMIUM</p>
+  <p class="text4">‘Sanmati Premium’ has grown on the principles of health, ecology, and care.
+     We believe in working with a large number of accredited farmers who do not use 
+     or promote the use of pesticides and genetically modified seeds to grow their produce.
+      We aim to give our customers a healthy chemical-free meal for the perfect nutrition.
+</p>
+</div>
+</div>
+
+
+<div id='div3'>
+  <br>
+  <p class="head">Our Organic Range</p><br>
+  <div class="one">
+   <div class="range" data-aos="fade-up">
+    <img class="img" src="images/icon1.jpg">
+  <br>
+  <p class="heading">Pulses</p>
+  </div>
+   </div><br><br>
+   <div class="two">
+   <div class="range" data-aos="fade-up">
+    <i class='fas fa-seedling' style='font-size:90px;text-align: center;'></i>
+<br>
+  <p class="heading">Grains</p>
+</div>
+</div><br><br>
+<div class="three">
+<div class="range" data-aos="fade-up">
+  <i class='fas fa-pepper-hot' style='font-size:90px;'></i>
+<br>
+  <p class="heading">Spices</p>
+</div>
+</div>
+</div>
+
+
+<div id="div4"><br>
+  <p class="head">Why Sanmati Premium?</p><br>
+  <div class="four1">
+    <div class="logo">
+      <img class="img" src="images/42.png"><br>
+      <p class="heading">No Chemicals & Pesticides</p>
+      <p class="text4">We don’t use artificial fertilisers or additives in our food</p>
+    </div>
+  </div>
+  <div class="four2">
+    <div class="logo">
+      <img class="img" src="images/41.png"><br>
+      <p class="heading">High Nutritional Value</p>
+      <p class="text4">Organic foods preserve far more natural vitamins and minerals</p>
+    </div>
+  </div>
+
+  <div class="four3">
+    <div class="logo">
+      <img class="img" src="images/43.png"><br>
+      <p class="heading">Preserves the Environment</p>
+      <p class="text4">Sustainable farming ensures soil conversation & reduced air pollution</p>
+    </div>
+  </div>
+</div>
+
+<!-- <div id="div5" style="max-width:100%;">
+  <div id="div51"><br><p class="heading">Testimonials</p>
+    <div class="mytest"><br>
+      <h3>Sheetal Jain</h3>
+        <p class ="tex1">
+          Sanmati Premium grains.is actually unpolished and worth the price.
+          Same taste but more healthy.Glad to have bought this grain from Sanmati Premium.
+        </p>
+      </div>
+  
+  <div class="mytest w3-animate-right"><br>
+    <h3>Saloni Kala</h3>
+    <p class ="tex1">
+      I recently bought Sanmati Premium cumin,fennel seeds.All the spices were fresh and colourless.After adding
+      it,my dishes had a tangy and delicious taste.
+    </p>
+  </div>
+    <div class="mytest w3-animate-right"><br>
+      <h3>Tanisha Raj</h3>
+    <p class ="tex1">
+      I have been a regular customer of Sanmati Premium.Their every product is so fresh and clean ,there is no need
+      to check them even.
+    </p>
+    </div>
+  </div>
+  </div>
+  <script>
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mytest");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 2500);    
+    }
+    </script> -->
+    <div id="div6">
+      <div class="div61"><br>
+        <p class="end"> ALL PRODUCTS - <br><br>
+    Organic Rice | Organic Cereals & Grains | Organic Flours | Organic Pulses | Organic Sugar & Jaggery |
+  Organic Whole Spices | Organic Masala Blends | Organic Super Foods & Health Foods | Organic Tea & Coffee | 
+  Organic Oils, Honey & Pastes | Natural Salts | Organic Ground Spices | Organic Dry Fruits</p>
+      </div><br>
+      <div class="div62">
+        <h4>Get In Touch</h4><p class="end">
+Sanmati Premium Pvt. Ltd. 332,Hukumchand colony
+Indore 252002, India</p>
+      </div>
+    </div>
+    <div id="final">
+      <p class="done">© Copyright 2020 - Sanmati Premium. All Rights Reserved.</p>
+    </div>
+    
+  
+  
+  
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>   
+  AOS.init({
+            offset:400,
+            duration:1000,
+        }); 
+</script>
+</body>
+</html>
